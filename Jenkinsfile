@@ -1,7 +1,4 @@
-  node {
-    
-    tools {nodejs "nodejs"}
-    
+node {
         stage('Build') {
                 sh 'npm install'
         }
