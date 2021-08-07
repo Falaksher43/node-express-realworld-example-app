@@ -1,13 +1,12 @@
   node {
-    stages {
         stage('Build') {
                 sh 'npm install'
         }
         stage('Test') {
-                        sh 'npm test'
+                sh 'npm test'
                 }
-                stage('Deploy') {
-                               echo "deploy"
+        stage('Deploy') {
+                echo "deploy"
                         }
     }
 }
