@@ -1,6 +1,6 @@
 node {
         stage('Build') {
-                sh 'npm install --save-dev'
+                sh 'npm install'
         }
         stage('Test') {
                 sh 'npm test'
