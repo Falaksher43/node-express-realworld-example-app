@@ -1,4 +1,3 @@
-#pipeline
   node {
     stages {
         stage('Build') {
