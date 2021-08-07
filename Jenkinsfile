@@ -1,4 +1,4 @@
-pipeline {
+#pipeline
   node {
     stages {
         stage('Build') {
@@ -16,6 +16,5 @@ pipeline {
                                echo "deploy"
                             }
                         }
-        }
     }
 }
